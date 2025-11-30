@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanguk Glow</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <a href="#" class="header__logo">
+                    <img src="images/logo.svg" alt="Логотип">
+                </a>
+                <div class="header__nav">
+                    <nav class="nav">
+                        <a href="#" class="nav__link">Каталог</a>
+                        <a href="#" class="nav__link">Sale</a>
+                        <a href="#" class="nav__link">Telegram</a>
+                        <a href="#" class="btn btn-accent _ml">К покупкам!</a>
+                        <a href="#" class="btn btn-light-pink">Вход</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="main">
+                <div class="main__text">
+                <h1 class="title-h1  main__title">Hanguk Glow</h1>
+                <p class="text main__desc">Сияние, вдохновленное Кореей</p>
+                <a href="#" class="btn btn-accent _ml main__btn">К покупкам!</a>
+                </div>
+                <div class="main__cover">
+                    <img src="images/creame.svg" alt="creame">
+                </div>
+            </div>
+        </div>
+    </main>
+    <menu>
+        <div class="container2">
+            <div class="item1"><p>(face)</p>
+                <img src="images/collagen.png" alt="collagen">
+            </div>
+             <div class="item1"><p>(body)</p>
+                <img src="images/suncreame.svg" alt="suncreame">
+            </div>
+             <div class="item1"><p>(hair)</p>
+                <img src="images/shampoo.svg" alt="shampoo">
+            </div>
+             <div class="item1"><p>(other)</p>
+                <img src="images/other.svg" alt="other">
+            </div>
+        </div>
+    </menu>
+    <section class="page">
+        <div class="container _line">
+            <div class="sale">
+                <div class="sale__text">
+                <h2 class="title-h2 sale__title">2 по цене 1</h2>
+                <h3 class="title-h3 sale__title2">На всю уходовую косметику</h3>
+                <p class="text sale__desc">
+                    Не упустите шанс приобрести любимую корейскую косметику по выгодным ценам! Акция действует только до 31.12.2025. Торопитесь!
+                </p>
+                <a href="#" class="btn btn-light-pink sale__btn">К покупкам!</a>
+                </div>
+                <div class="sale__cover">
+                    <img src="images/sale.svg" alt="sale">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page2">
+        <div class="container3">
+            <div class="add">
+                <div class="add__text">
+                <h4 class="title-h4 add__title2">Горячие новинки <p>K-Beauty уже здесь!</p></h4>
+                <div class="add__cover">
+                    <img src="images/add.png" alt="add">
+                </div>
+                <p class="text add__desc">
+                    Не пропустите самые свежие поступления из Кореи! Узнайте первыми о новинках, эксклюзивных акциях и секретах корейского ухода!
+                </p>
+                <a href="#" class="btn btn-light-pink add__btn">К покупкам!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="#" class="header__logo">
+                    <img src="images/logo2.svg" alt="Логотип">
+                </a>
+                <div class="footer__link">
+                    <nav class="nav">
+                        <a href="#" class="nav__link">Каталог</a>
+                        <a href="#" class="nav__link">Sale</a>
+                        <a href="#" class="nav__link">Telegram</a>
+                    </nav>
+                </div>
+    </footer>
+</body>
+</html>
